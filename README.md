@@ -164,6 +164,7 @@ Contributions are welcome! If you have additional labs, exercises, or improvemen
 
 ## 📚 Resources
 
+- [Eng-Ramy Abou-Nagi](https://www.linkedin.com/in/ramy-abou-nagi-057158a7/)
 - [Microsoft SQL Server Documentation](https://docs.microsoft.com/en-us/sql/)
 - [T-SQL Reference](https://docs.microsoft.com/en-us/sql/t-sql/)
 - [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/)
