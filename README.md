@@ -4,14 +4,16 @@ A comprehensive collection of database design and SQL laboratories covering fund
 
 ## 📋 Overview
 
-This repository contains hands-on labs and exercises designed to teach database concepts, from basic SQL queries to advanced database design and optimization techniques.
+This repository contains hands-on labs and exercises designed to teach database concepts, from basic SQL queries to advanced database design and optimization techniques. The labs are organized by day, with each day building upon previous concepts.
 
 ## 🎯 Topics Covered
 
 ### Database Design
 - Entity-Relationship Diagrams (ERD)
+- Enhanced Entity-Relationship Diagrams (EERD)
 - Database normalization (1NF, 2NF, 3NF, BCNF)
 - Schema design best practices
+- Database mapping and modeling
 - Relationships (One-to-One, One-to-Many, Many-to-Many)
 - Primary and Foreign Keys
 - Indexing strategies
@@ -28,6 +30,14 @@ This repository contains hands-on labs and exercises designed to teach database 
   - WHERE clause and filtering
   - ORDER BY and sorting
   - DISTINCT values
+  - Bulk Insert operations
+  - Insert based on SELECT
+  - DML operations on Joins
+
+- **Data Query Language (DQL)**
+  - SELECT statements
+  - Filtering and sorting
+  - Query execution order
 
 - **Basic Functions**
   - Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
@@ -54,19 +64,23 @@ This repository contains hands-on labs and exercises designed to teach database 
   - Common Table Expressions (CTEs)
   - Recursive CTEs
   - PIVOT and UNPIVOT
+  - TOP clause
 
 - **Database Objects**
   - Views
   - Stored Procedures
   - Functions (Scalar and Table-Valued)
-  - Triggers
+  - Triggers (DML Triggers)
   - Indexes (Clustered and Non-Clustered)
+  - Synonyms
+  - Cursors
 
-- **Transactions**
+- **Transactions & Administration**
   - ACID properties
   - BEGIN TRANSACTION, COMMIT, ROLLBACK
   - Transaction isolation levels
   - Locking and concurrency
+  - Database administration basics
 
 - **Performance Optimization**
   - Query optimization
@@ -89,22 +103,22 @@ git clone https://github.com/A7med7c/Database-Labs.git
 
 2. Open SQL Server Management Studio or Azure Data Studio
 
-3. Navigate to the lab folders and execute the scripts in order
+3. Navigate to the lab folders and execute the scripts in order (Day1 → Day10)
 
 ## 📁 Repository Structure
 
 ```
 Database-Labs/
-├── 01-Database-Design/
-├── 02-Mapping-SQL-Basics/
-├── 03-DDL-DML-DQL-Operations/
-├── 04-Normalization-Joins-Sub Query-Agg Functions/
-├── 05-AggFunctions-Grouping-EERD-ExecutionOrder/
-├── 06-RankingFunctions-Top-BulkInsert-InsertBasedOnSelect/
-├── 07-Advanced-Queries/
-├── 08-Database-Objects/
-├── 09-Transactions/
-└── 10-Performance-Optimization/
+├── Day1/   # Database History & Design
+├── Day2/   # Database Mapping and Creating new DB using SQL
+├── Day3/   # DB Normalization & Enhanced ERD
+├── Day4/   # Joins & Grouping & EERD
+├── Day5/   # Normalization & Joins & Sub Query
+├── Day6/   # Ranking Functions & Bulk Insert
+├── Day7/   # Synonym & DML On Joins
+├── Day8/   # Functions
+├── Day9/   # Views & Transactions & Stored Procedures & Triggers
+└── Day10/  # Cursor & DB Administration
 ```
 
 ## 💡 Usage
@@ -117,13 +131,26 @@ Each lab folder contains:
 
 ## 📝 Learning Path
 
-1. Start with database design principles
-2. Master SQL basics (DDL and DML)
-3. Progress to joins and subqueries
-4. Learn advanced querying techniques
-5. Explore database objects (views, stored procedures, etc.)
-6. Understand transactions and concurrency
-7. Practice performance optimization
+1. **Day 1-2**: Start with database design principles, history, and mapping
+2. **Day 3-4**: Master normalization techniques and ERD/EERD concepts
+3. **Day 4-5**: Progress to joins, subqueries, and grouping
+4. **Day 6**: Learn ranking functions and bulk operations
+5. **Day 7**: Understand synonyms and DML operations on joins
+6. **Day 8**: Explore user-defined functions
+7. **Day 9**: Work with views, transactions, stored procedures, and triggers
+8. **Day 10**: Master cursors and database administration
+
+## 📊 Recent Updates
+
+### Latest Commits
+- **Cursor & DB Administration** - Advanced database administration concepts (2026-01-11)
+- **Stored Procedures & Triggers** - Creating and managing stored procedures and triggers (2026-01-11)
+- **Views & Transactions** - Working with views and transaction management (2026-01-11)
+- **Functions** - User-defined functions (scalar and table-valued) (2026-01-11)
+- **Synonym & DML On Joins** - Creating synonyms and DML operations (2026-01-11)
+- **Ranking Functions & Bulk Insert** - Window functions and data import (2026-01-11)
+- **Normalization & Joins & Sub Query** - Database normalization and query techniques (2026-01-11)
+- **Database Design Fundamentals** - Initial labs on database theory and design (2026-01-11)
 
 ## 🤝 Contributing
 
