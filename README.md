@@ -96,11 +96,11 @@ git clone https://github.com/A7med7c/Database-Labs.git
 ```
 Database-Labs/
 ├── 01-Database-Design/
-├── 02-SQL-Basics/
-├── 03-DDL-Operations/
-├── 04-DML-Operations/
-├── 05-Joins/
-├── 06-Subqueries/
+├── 02-Mapping-SQL-Basics/
+├── 03-DDL-DML-DQL-Operations/
+├── 04-Normalization-Joins-Sub Query-Agg Functions/
+├── 05-AggFunctions-Grouping-EERD-ExecutionOrder/
+├── 06-RankingFunctions-Top-BulkInsert-InsertBasedOnSelect/
 ├── 07-Advanced-Queries/
 ├── 08-Database-Objects/
 ├── 09-Transactions/
