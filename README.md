@@ -169,9 +169,6 @@ Contributions are welcome! If you have additional labs, exercises, or improvemen
 - [T-SQL Reference](https://docs.microsoft.com/en-us/sql/t-sql/)
 - [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/)
 
-## 📄 License
-
-This project is open source and available for educational purposes.
 
 ## 👤 Author
 
